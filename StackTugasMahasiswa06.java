@@ -60,4 +60,13 @@ public class StackTugasMahasiswa06 {
         }
         System.out.println("");
     }
+
+    public Mahasiswa06 peekBottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan.");
+            return null;
+        }
+    }
 }
